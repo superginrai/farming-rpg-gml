@@ -231,11 +231,27 @@
             }
         },
         {
+            "Key": "752ebd94-c14c-4af5-b8ac-0a79003cf9ef",
+            "Value": {
+                "id": "7a98a4e7-4b74-43cd-afdb-bf2e42ddfa53",
+                "resourcePath": "objects\/obj_cronch\/obj_cronch.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "757fedff-6daa-4786-a544-7d7821697854",
             "Value": {
                 "id": "617a1bb4-d2ad-4d19-8a8a-ba8cd8abb212",
                 "resourcePath": "sprites\/spr_hair_female_pixie_white_blond_2\/spr_hair_female_pixie_white_blond_2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "75a1db33-9c75-4443-8eb0-23b46af7a9ab",
+            "Value": {
+                "id": "83a3fd30-fc00-41e2-96cb-5e43a71fa77d",
+                "resourcePath": "objects\/obj_sophie\/obj_sophie.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -476,6 +492,14 @@
                 "id": "d337bdd8-e900-434b-a7d1-f11132317d54",
                 "resourcePath": "views\/f910dad3-5762-431d-8685-11f39713a28f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fda95589-58cb-4f95-bcd2-d0020a4a1725",
+            "Value": {
+                "id": "e0b4e9fd-54e5-424b-be74-227b79db3c02",
+                "resourcePath": "objects\/obj_will\/obj_will.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
