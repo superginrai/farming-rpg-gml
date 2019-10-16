@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "37184a6f-c9d8-4fa0-b3ee-9355866a2ff6",
+            "Value": {
+                "id": "ff4e4f62-0470-40a5-bf84-ec051c7a6861",
+                "resourcePath": "tilesets\/tile_terrain\/tile_terrain.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "37abbef0-ebb3-4849-ba27-cbfd11944c35",
             "Value": {
                 "id": "29095512-56c0-47ca-8170-637d20161d24",
@@ -223,6 +231,14 @@
             }
         },
         {
+            "Key": "6cdc2802-3004-45cc-a24c-c365e43df09d",
+            "Value": {
+                "id": "768f06ca-ac1a-43ff-9dec-ecaaaba53754",
+                "resourcePath": "sprites\/spr_tile_terrain\/spr_tile_terrain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "700e567f-e94c-4159-9afc-7987b053e621",
             "Value": {
                 "id": "882640c3-9046-473e-ad04-b5967e88ae4b",
@@ -268,6 +284,14 @@
                 "id": "afbcc6c2-f4da-41e3-a6fb-400f34ca5485",
                 "resourcePath": "sprites\/spr_legs_male_pants_green\/spr_legs_male_pants_green.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7f77c696-cc7c-401c-99a0-e9412d1b1729",
+            "Value": {
+                "id": "ccabd931-ef72-413e-91b0-81b8033f6e86",
+                "resourcePath": "tilesets\/tile_cottage\/tile_cottage.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -475,6 +499,14 @@
             "Value": {
                 "id": "3723c666-a250-4ba0-b545-116b9d7f3cef",
                 "resourcePath": "sprites\/spr_torso_male_shirt_white\/spr_torso_male_shirt_white.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ea058c67-92ef-4f49-98ca-1a84d0712998",
+            "Value": {
+                "id": "18931e8f-f255-4e8a-b46b-db463afe0d20",
+                "resourcePath": "sprites\/spr_tile_cottage\/spr_tile_cottage.yy",
                 "resourceType": "GMSprite"
             }
         },
