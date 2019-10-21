@@ -16,6 +16,7 @@ spr_torso = -1;
 spr_legs = -1;
 spr_hair = -1;
 spr_feet = -1;
+spr_shadow = spr_character_shadow;
 
 moveX = 0;
 moveY = 0;

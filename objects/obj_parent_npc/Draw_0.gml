@@ -16,19 +16,19 @@ if (x_frame + (anim_speed/60) < anim_length) { x_frame += anim_speed/60; }
 else { x_frame = 1; }
 
 // Draw character shadow
-draw_sprite(spr_character_shadow, 0, x, y);
+if (spr_shadow != -1) draw_sprite(spr_character_shadow, 0, x, y);
 
 // Draw character base
-draw_sprite_part(spr_base,  0, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, xx, yy);
+if (spr_base != -1) draw_sprite_part(spr_base,  0, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, xx, yy);
 
 // Draw character feet
-draw_sprite_part(spr_feet,  0, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, xx, yy);
+if (spr_feet != -1) draw_sprite_part(spr_feet,  0, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, xx, yy);
 
 // Draw character legs
-draw_sprite_part(spr_legs,  0, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, xx, yy);
+if (spr_legs != -1) draw_sprite_part(spr_legs,  0, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, xx, yy);
 
 // Draw character shirt
-draw_sprite_part(spr_torso,  0, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, xx, yy);
+if (spr_torso != -1) draw_sprite_part(spr_torso,  0, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, xx, yy);
 
 // Draw character hair
-draw_sprite_part(spr_hair,  0, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, xx, yy);
+if (spr_hair != -1) draw_sprite_part(spr_hair,  0, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, xx, yy);
