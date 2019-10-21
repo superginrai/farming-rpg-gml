@@ -15,6 +15,9 @@ yy = y-y_offset;
 if (x_frame + (anim_speed/60) < anim_length) { x_frame += anim_speed/60; }
 else { x_frame = 1; }
 
+// Draw character shadow
+draw_sprite(spr_character_shadow, 0, x, y);
+
 // Draw character base
 draw_sprite_part(spr_base,  0, floor(x_frame)*frame_size, y_frame*frame_size, frame_size, frame_size, xx, yy);
 

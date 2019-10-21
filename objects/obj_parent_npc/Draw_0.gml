@@ -11,7 +11,10 @@ else				x_frame = 0;
 xx = x-x_offset;
 yy = y-y_offset;
 
-// Increment frame for animation
+// Draw character shadow
+draw_sprite(spr_character_shadow, 0, x, y);
+
+// Increment frame for animation 
 if (x_frame + (anim_speed/60) < anim_length) { x_frame += anim_speed/60; }
 else { x_frame = 1; }
 
