@@ -1,23 +1,3 @@
-inputLeft = keyboard_check(vk_left);
-inputRight = keyboard_check(vk_right);
-inputUp = keyboard_check(vk_up);
-inputDown = keyboard_check(vk_down);
-inputWalk = keyboard_check(vk_control);
-inputRun = keyboard_check(vk_shift);
-
-// Alter speed
-if (inputWalk) { playerSpeed = walkSpeed };
-else if (inputRun) { playerSpeed = runSpeed };
-else playerSpeed = normalSpeed;
-
-// Reset move variables
-moveX = 0;
-moveY = 0;
-
-// Intended movement
-moveX = (inputRight - inputLeft) * playerSpeed;
-if(moveX == 0){moveY = (inputDown - inputUp) * playerSpeed;}
-
 // Collision checks
 // Horizontal
 if (moveX != 0) {

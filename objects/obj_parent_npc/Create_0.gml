@@ -1,6 +1,7 @@
 walkSpeed = 1;
 normalSpeed = 2;
 runSpeed = 3;
+spd = walkSpeed;
 
 playerSpeed = normalSpeed;
 
@@ -15,3 +16,8 @@ spr_torso = -1;
 spr_legs = -1;
 spr_hair = -1;
 spr_feet = -1;
+
+moveX = 0;
+moveY = 0;
+
+alarm[1] = 1;
