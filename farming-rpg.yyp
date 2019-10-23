@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "4947090d-ca43-4720-a6e8-543981a15b24",
+            "Value": {
+                "id": "9e0896dd-cb41-468d-838a-c1c77bca7065",
+                "resourcePath": "rooms\/rm_farm_house\/rm_farm_house.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "4c5e917c-8688-4466-ab7f-2366704f472c",
             "Value": {
                 "id": "590995e4-dbde-4e5b-b8c9-65930ba2302a",
@@ -466,7 +474,7 @@
             "Key": "b305e2a2-99b4-40c5-8a4d-2d4b6986dc79",
             "Value": {
                 "id": "435f059d-f55c-4110-bb50-b034988d9844",
-                "resourcePath": "rooms\/rm_1\/rm_1.yy",
+                "resourcePath": "rooms\/rm_farm\/rm_farm.yy",
                 "resourceType": "GMRoom"
             }
         },
