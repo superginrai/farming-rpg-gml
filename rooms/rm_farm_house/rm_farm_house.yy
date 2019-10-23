@@ -8,7 +8,8 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "85472ce6-3ea9-4085-b76d-2408db51ab95",
-        "b63395ff-d7ad-4970-98b9-974e3b356988"
+        "b63395ff-d7ad-4970-98b9-974e3b356988",
+        "1eb5b8e7-1a3c-4a93-8809-e4e130f3e268"
     ],
     "IsDnD": false,
     "layers": [
@@ -20,40 +21,13 @@
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": false,
-            "inheritLayerDepth": false,
-            "inheritLayerSettings": false,
-            "inheritSubLayers": false,
-            "inheritVisibility": false,
-            "instances": [
-
-            ],
-            "layers": [
-
-            ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
-            "m_serialiseFrozen": false,
-            "modelName": "GMRInstanceLayer",
-            "mvc": "1.0",
-            "userdefined_depth": false,
-            "visible": false
-        },
-        {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Instances",
-            "id": "efacff8d-e550-4b90-b452-db6ed75e8a7f",
-            "depth": 100,
-            "grid_x": 32,
-            "grid_y": 32,
-            "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_24956574","id": "85472ce6-3ea9-4085-b76d-2408db51ab95","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_24956574","objId": "517445c5-bc78-4f9b-b288-dca8b4ea7243","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 416,"y": 384},
-{"name": "inst_35773A","id": "b63395ff-d7ad-4970-98b9-974e3b356988","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_35773A","objId": "36a64416-3549-4272-828c-c5bf313455d3","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 0}
+
             ],
             "layers": [
 
@@ -64,6 +38,34 @@
             "mvc": "1.0",
             "userdefined_depth": false,
             "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Instances",
+            "id": "efacff8d-e550-4b90-b452-db6ed75e8a7f",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": false,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_24956574","id": "85472ce6-3ea9-4085-b76d-2408db51ab95","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_24956574","objId": "517445c5-bc78-4f9b-b288-dca8b4ea7243","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 416,"y": 320},
+{"name": "inst_35773A","id": "b63395ff-d7ad-4970-98b9-974e3b356988","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_35773A","objId": "36a64416-3549-4272-828c-c5bf313455d3","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 0},
+{"name": "inst_1A52256B","id": "1eb5b8e7-1a3c-4a93-8809-e4e130f3e268","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_1A52256B.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1A52256B","objId": "da26d4f9-c1ce-4ba5-ab1a-a5ec177d9593","properties": null,"rotation": 0,"scaleX": 2,"scaleY": 1,"mvc": "1.1","x": 384,"y": 352}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": false
         },
         {
             "name": "L1",
@@ -157,9 +159,9 @@
                         "TileSerialiseData": [
                             0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
                             0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-                            0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+                            0,0,0,0,10,10,10,10,10,10,10,10,10,10,10,10,0,0,0,0,
                             0,0,0,0,0,0,0,0,503,504,505,0,0,0,0,0,0,0,0,0,
-                            0,0,0,0,0,0,0,250,0,0,0,314,314,0,183,0,0,0,0,0,
+                            0,0,0,0,0,0,0,250,0,0,0,314,314,0,182,0,0,0,0,0,
                             0,0,0,0,0,0,0,0,0,0,0,346,346,187,188,0,0,0,0,0,
                             0,0,0,0,0,0,0,0,0,0,0,412,412,219,220,0,0,0,0,0,
                             0,0,0,0,0,0,0,0,0,0,0,0,0,251,252,0,0,0,0,0,

@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "da26d4f9-c1ce-4ba5-ab1a-a5ec177d9593",
+            "Value": {
+                "id": "824406dd-39fc-43d0-affd-acf29934bc03",
+                "resourcePath": "objects\/obj_transition\/obj_transition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dd353d7c-26f7-4a1c-a370-ed793bbbec71",
             "Value": {
                 "id": "bdd92d49-4532-4656-8ca2-4cae80ed1d1d",
