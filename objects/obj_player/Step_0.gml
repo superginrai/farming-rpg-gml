@@ -50,7 +50,10 @@ if (moveY != 0) {
 // Transition
 var inst = instance_place(x, y, obj_transition);
 if(inst != noone){
-	room_goto(inst.targetRoom);	
+	with(game){ 
+		spawnRoom = inst.targetRoom
+		doTransition = true; 
+	}
 }
 
 // Apply movement 
