@@ -15,3 +15,5 @@ spr_torso = spr_torso_female_sleeveless_white;
 spr_legs = spr_legs_female_pants_magenta;
 spr_hair = spr_hair_female_pixie_white_blond_2;
 spr_feet = spr_feet_female_boots_black;
+
+facing = 0;
