@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "22e25e99-3cd5-4da3-8167-dc9fd5a7e3eb",
+            "Value": {
+                "id": "a93127c3-bc7d-4e4b-a628-b1f07ffc5af8",
+                "resourcePath": "sprites\/spr_crops_picked\/spr_crops_picked.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "231484c5-d9c6-4cb2-81f9-669188040d45",
             "Value": {
                 "id": "158de227-d30b-474c-bd7a-7d1ff0a53049",
@@ -124,6 +132,14 @@
                 "id": "2c574649-aa3c-4551-a41d-50523311357c",
                 "resourcePath": "views\/23621b1d-2a63-436a-8241-2b70fa3533bb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "299879d1-d8a5-4801-b2dd-9d6646d50356",
+            "Value": {
+                "id": "cafd5d34-4b24-4f97-8cdc-3f3cc93cb723",
+                "resourcePath": "sprites\/spr_sparkle\/spr_sparkle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -179,6 +195,14 @@
             "Value": {
                 "id": "5f013233-32b2-49e7-b9e6-69022234b543",
                 "resourcePath": "views\/439b36c3-363a-4b7d-813c-1acd80657c8c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "47ec1358-c534-45ff-858a-41faae04be0f",
+            "Value": {
+                "id": "ab491b2b-2f31-49d3-be81-393bed637b63",
+                "resourcePath": "views\/47ec1358-c534-45ff-858a-41faae04be0f.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -348,6 +372,14 @@
                 "id": "425c361c-dda3-4831-a2fa-c5c9bf976583",
                 "resourcePath": "rooms\/rm_0\/rm_0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "7deb4fa9-f11f-4fb5-bf01-81741ef215e3",
+            "Value": {
+                "id": "0690dec8-e05d-4411-84f3-c407d3f21c77",
+                "resourcePath": "sprites\/spr_crops\/spr_crops.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
