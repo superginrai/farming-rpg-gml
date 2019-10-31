@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "382dd33f-a136-4f9f-8ba4-60f2e3ecbcf8",
+            "Value": {
+                "id": "3c389fa5-930e-4d7c-ae2c-79840bb9e26d",
+                "resourcePath": "scripts\/instance_create_crop\/instance_create_crop.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "40f5aecc-2311-4b7c-b1da-7f1ff739c396",
             "Value": {
                 "id": "bbc5d5d8-955d-4899-93a6-8dcf38927553",
@@ -276,6 +284,14 @@
                 "id": "ba16ae87-2439-42e4-b715-20438e04066c",
                 "resourcePath": "sprites\/spr_base_female_2\/spr_base_female_2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "67bc91a4-cc2c-451f-a799-297dd4403b55",
+            "Value": {
+                "id": "aa36deb1-d2e5-4a47-9107-02645cb6aca0",
+                "resourcePath": "objects\/crops\/crops.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -519,6 +535,22 @@
             }
         },
         {
+            "Key": "c3a6fa1a-2b83-4344-9672-c1ae101a36f3",
+            "Value": {
+                "id": "6099ef61-86e8-48a3-ab71-cfd71c19820c",
+                "resourcePath": "scripts\/create_crop_type\/create_crop_type.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c4f4ec74-caa2-4fd9-b06e-af738967cd4d",
+            "Value": {
+                "id": "c39a2fb9-c4cb-46ca-9660-fcebad2ee40c",
+                "resourcePath": "views\/c4f4ec74-caa2-4fd9-b06e-af738967cd4d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c817591f-c3e2-46fa-9d6e-085679060f20",
             "Value": {
                 "id": "bec032d7-23ca-4e94-a1ab-462c8016ed73",
@@ -580,6 +612,14 @@
                 "id": "bdd92d49-4532-4656-8ca2-4cae80ed1d1d",
                 "resourcePath": "views\/dd353d7c-26f7-4a1c-a370-ed793bbbec71.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dec76741-c090-48f8-9443-ed86a5aa6ef5",
+            "Value": {
+                "id": "33e63554-575c-4105-a7df-691120b52e0b",
+                "resourcePath": "objects\/obj_crop\/obj_crop.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -672,7 +712,8 @@
         }
     ],
     "script_order": [
-        
+        "c3a6fa1a-2b83-4344-9672-c1ae101a36f3",
+        "382dd33f-a136-4f9f-8ba4-60f2e3ecbcf8"
     ],
     "tutorial": ""
 }
