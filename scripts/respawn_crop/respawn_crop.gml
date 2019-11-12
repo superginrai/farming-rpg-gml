@@ -19,4 +19,4 @@ with(inst){
 	growthStageDuration = crops.ds_crops_types[# 0, cropType]; 
 }
 
-return inst; 
+return inst;  

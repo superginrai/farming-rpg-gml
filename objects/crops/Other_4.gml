@@ -1,4 +1,4 @@
-if(room == rm_farm and ds_crops_instances == -1){
+if(room == rm_farm){
 	ds_crops_instances = ds_grid_create(room_width div cellSize, room_height div cellSize);	
 	ds_grid_clear(ds_crops_instances, 0);
 		
@@ -15,11 +15,11 @@ if(room == rm_farm and ds_crops_instances == -1){
 			);
 			
 			slot += 1;
-		}
+		} 
 		with(obj_crop){
 			if(growthStage < maxGrowthStage){
 				daysOld += 1;
-			
+			 
 				//First growth
 				var firstGrowth = 0;
 				if(daysOld > 0){ firstGrowth = 1; }

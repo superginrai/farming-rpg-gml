@@ -27,6 +27,6 @@ if(room == rm_farm){
 			xx += 1; 	
 		}
 	}
-	ds_grid_destroy(ds_crops_instances);
+	 ds_grid_destroy(ds_crops_instances);
 } 
 
