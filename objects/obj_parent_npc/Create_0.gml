@@ -1,3 +1,5 @@
+event_inherited(); 
+
 walkSpeed = 1;
 normalSpeed = 2;
 runSpeed = 3;

@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "6219c8a2-10aa-4dca-ae0c-00aabc960c76",
+            "Value": {
+                "id": "3da44cf2-739f-48ad-89cb-e54715b068d4",
+                "resourcePath": "objects\/depthsorter\/depthsorter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "63e30fbc-bb47-4a25-8253-52577ecf1c15",
             "Value": {
                 "id": "ba16ae87-2439-42e4-b715-20438e04066c",
@@ -412,6 +420,14 @@
                 "id": "ccabd931-ef72-413e-91b0-81b8033f6e86",
                 "resourcePath": "tilesets\/tile_cottage\/tile_cottage.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "8046147b-14ca-4970-b089-9c8f58a415de",
+            "Value": {
+                "id": "fac7fe51-b2bc-47ad-81c6-ed0b77747a21",
+                "resourcePath": "views\/8046147b-14ca-4970-b089-9c8f58a415de.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -596,6 +612,14 @@
                 "id": "a30369ff-86a3-4cbb-8771-c064d4273421",
                 "resourcePath": "sprites\/spr_hair_female_pixie_blond\/spr_hair_female_pixie_blond.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d3d1ea00-7515-424b-91c4-34cddf75df7b",
+            "Value": {
+                "id": "15972df7-be98-42af-8898-386371f71fd8",
+                "resourcePath": "objects\/par_depthobject\/par_depthobject.yy",
+                "resourceType": "GMObject"
             }
         },
         {
