@@ -8,7 +8,15 @@ hours = minutes/60;
 
 if(draw_daylight){
 	
+	if(hours > phase.sunrise and hours <= phase.daytime){  //Sunrise
 	
+	} else if (hours > phase.daytime and hours <= phase.sunset){ //Day
+		
+	} else if (hours > phase.sunset and hours <= phase.nighttime){ //Sunset
+		
+	} else {
+		
+	}
 }
 
 
