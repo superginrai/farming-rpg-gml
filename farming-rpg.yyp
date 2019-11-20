@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0136f276-7e24-4b23-b084-be9d9e34903b",
+            "Value": {
+                "id": "d3b9dd03-bca2-4281-afa5-949b7929d39d",
+                "resourcePath": "scripts\/merge_number\/merge_number.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "01c2d07f-7421-4c20-aa45-a0ffed75d6a2",
             "Value": {
                 "id": "fbe32350-ac8c-465e-abb9-a62ba2609054",
@@ -754,7 +762,8 @@
     "script_order": [
         "c3a6fa1a-2b83-4344-9672-c1ae101a36f3",
         "382dd33f-a136-4f9f-8ba4-60f2e3ecbcf8",
-        "02d6069a-d464-41fa-819d-1cfd821dfde0"
+        "02d6069a-d464-41fa-819d-1cfd821dfde0",
+        "0136f276-7e24-4b23-b084-be9d9e34903b"
     ],
     "tutorial": ""
 }
