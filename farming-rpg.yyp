@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1552b29e-0c89-40cf-890d-79b36bf7f10e",
+            "Value": {
+                "id": "9b2ba100-1140-4ea0-9189-37f4175a8e57",
+                "resourcePath": "fonts\/fnt_text_24\/fnt_text_24.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "17bbf6c5-7355-4ffc-a616-2e230520b469",
             "Value": {
                 "id": "8aaa1bf5-b6df-4d9e-9a2a-8d323037e43c",
@@ -551,6 +559,14 @@
             }
         },
         {
+            "Key": "a87f97a7-7cc3-494f-8a4e-def9c417eac4",
+            "Value": {
+                "id": "2b88c969-c633-4d8f-ad2b-712c6dd12eb5",
+                "resourcePath": "fonts\/fnt_smalldigits\/fnt_smalldigits.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "a903f945-18f2-4496-9cb6-954fe8d2f12c",
             "Value": {
                 "id": "c815f273-1310-48ed-8c2c-d1321a2f2fa7",
@@ -564,6 +580,14 @@
                 "id": "100ff004-0a58-48fb-ac48-b77ed5330042",
                 "resourcePath": "sprites\/spr_legs_female_pants_magenta\/spr_legs_female_pants_magenta.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ae0db3ac-eae6-4228-b6a7-547826332035",
+            "Value": {
+                "id": "e3852463-e48e-4ae9-81bf-9295304f1e62",
+                "resourcePath": "fonts\/fnt_text_12\/fnt_text_12.yy",
+                "resourceType": "GMFont"
             }
         },
         {
