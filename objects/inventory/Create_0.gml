@@ -25,6 +25,7 @@ info_y = inv_UI_y + (9 * scale);
 //3 = NAME
 
 ds_player_info = ds_grid_create(2, 4);
+var info_grid = ds_player_info;
 ds_player_info[# 0, 0] = "Gold";
 ds_player_info[# 0, 1] = "Silver";
 ds_player_info[# 0, 2] = "Bronze";
