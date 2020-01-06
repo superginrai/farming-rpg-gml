@@ -6,6 +6,9 @@ inv_slots = 17;
 inv_slots_width = 8;
 inv_slots_height = 2;
 
+x_buffer = 2;
+y_buffer = 4;
+
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 
