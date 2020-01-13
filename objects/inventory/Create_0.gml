@@ -4,7 +4,12 @@ show_inventory = false;
 
 inv_slots = 17;
 inv_slots_width = 8;
-inv_slots_height = 2;
+inv_slots_height = 3;
+
+selected_slot = 0;
+pickup_item = -1;
+m_slotx = 0;
+m_sloty = 0;
 
 x_buffer = 2;
 y_buffer = 4;
