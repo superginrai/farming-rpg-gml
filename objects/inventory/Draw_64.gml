@@ -1,4 +1,4 @@
-if(!show_inventory) exit;
+if(!show_inventory) exit; 
 
 //Inventory back
 draw_sprite_part_ext(
@@ -34,9 +34,23 @@ repeat(inv_slots){
 	
 	//Draw slot and item
 	draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, cell_size, cell_size, xx, yy, scale, scale, c_white, 1);
-	if (iitem > 0) draw_sprite_part_ext(
-		spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 1 
-	);
+	
+	switch(ii){
+		case selected_slot:
+			if (iitem > 0) draw_sprite_part_ext(
+				spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 1 
+			);
+			gpu_set_blendmode(bm_add);
+			draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, cell_size, cell_size, xx, yy, scale, scale, c_white, .3);
+			gpu_set_blendmode(bm_normal);
+		
+		break;
+		
+		default:
+			if (iitem > 0) draw_sprite_part_ext(
+				spr_inv_items, 0, sx, sy, cell_size, cell_size, xx, yy, scale, scale, c_white, 1 
+			);
+	}
 	
 	//Draw item number
 	if(iitem > 0){

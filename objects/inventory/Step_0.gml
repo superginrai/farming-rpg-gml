@@ -14,5 +14,16 @@ var i_mousey = mousey - slots_y;
 var nx = i_mousex div cell_xbuff;
 var ny = i_mousey div cell_ybuff;
 
-m_slotx = nx;
-m_sloty = ny;
+if(nx >= 0 and nx < inv_slots_width and ny >= 0 and ny < inv_slots_height){
+	var sx = i_mousex - (nx*cell_xbuff);
+	var sy = i_mousey - (ny*cell_xbuff);
+
+	if((sx < cell_size*scale) and (sy < cell_size*scale)){
+		m_slotx = nx;
+		m_sloty = ny;
+	}
+}
+
+//Set selected slot to mouse position
+selected_slot = min(inv_slots-1, m_slotx + (m_sloty*inv_slots_width));
+ 
