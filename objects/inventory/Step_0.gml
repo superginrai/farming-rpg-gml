@@ -65,6 +65,18 @@ if(pickup_slot != -1){
 }
 
 else if(ss_item != item.none){
+	//Drop item into game world
+	if(keyboard_check_pressed(ord("D"))){
+		inv_grid[# 1, selected_slot] -= 1;
+		//Destroy item if it was the last one
+		if(inv_grid[# 1, selected_slot] == 0){ 
+			inv_grid[# 0, selected_slot] = item.none; 
+		}
+		
+		//Create the item on ground in the game world
+		
+	}
+	
 	if(mouse_check_button_pressed(mb_right)){
 		pickup_slot = selected_slot;
 	}
