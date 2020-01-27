@@ -74,7 +74,13 @@ else if(ss_item != item.none){
 		}
 		
 		//Create the item on ground in the game world
-		
+		var inst = instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_item);
+		with(inst){
+			item_num = ss_item;
+			x_frame = item_num mod(spr_width/cell_size);
+			y_frame = item_num div(spr_width/cell_size);
+		}
+		show_debug_message("Dropped an item");
 	}
 	
 	if(mouse_check_button_pressed(mb_right)){
