@@ -9,3 +9,11 @@ item_num = -1;
 x_frame = 0;
 y_frame = 0;
 
+x_offset = cell_size/2;
+y_offset = cell_size*(2/3);
+
+drop_move = true;
+var itemdir = irandom_range(0, 259);
+var len		= 32;
+goal_x		= x + lengthdir_x(len, itemdir);
+goal_y		= y + lengthdir_y(len, itemdir);
