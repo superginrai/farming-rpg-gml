@@ -1,4 +1,4 @@
-depth = -1;
+ depth = -1;
 scale = 2;
 show_inventory = false;
 
@@ -82,6 +82,36 @@ enum item {
 	mushroom	= 16,
 	height		= 17,
 }
+
+//Items info grid
+
+ds_items_info = ds_grid_create(2, item.height);
+
+//Item names
+var z = 0, i = 0;
+ds_items_info[# z, i++] = "Nothing";
+ds_items_info[# z, i++] = "Tomato";
+ds_items_info[# z, i++] = "Potato";
+ds_items_info[# z, i++] = "Carrot";
+ds_items_info[# z, i++] = "Artichoke";
+ds_items_info[# z, i++] = "Chili";
+ds_items_info[# z, i++] = "Gourd";
+ds_items_info[# z, i++] = "Corn";
+ds_items_info[# z, i++] = "Wood";
+ds_items_info[# z, i++] = "Stone";
+ds_items_info[# z, i++] = "Bucket";
+ds_items_info[# z, i++] = "Chair";
+ds_items_info[# z, i++] = "Picture";
+ds_items_info[# z, i++] = "Axe";
+ds_items_info[# z, i++] = "Potion";
+ds_items_info[# z, i++] = "Starfish";
+ds_items_info[# z, i++] = "Mushroom";
+
+//Item descriptions
+
+
+	
+	
  
 var yy = 0; repeat(inv_slots){
 	ds_inventory[# 0, yy] = irandom_range(1, item.height-1);
