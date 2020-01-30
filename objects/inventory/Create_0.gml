@@ -108,10 +108,25 @@ ds_items_info[# z, i++] = "Starfish";
 ds_items_info[# z, i++] = "Mushroom";
 
 //Item descriptions
-
-
-	
-	
+var z = 1 , i = 0;
+ds_items_info[# z, i++] = "Nothing";
+ds_items_info[# z, i++] = "To-mah...MAY-to.";
+ds_items_info[# z, i++] = "Pre-fries for your stew.";
+ds_items_info[# z, i++] = "Keep away from rabbits.";
+ds_items_info[# z, i++] = "...arti-chuck.";
+ds_items_info[# z, i++] = "Baaaaby-back ribs.";
+ds_items_info[# z, i++] = "Or is it an eggplant?";
+ds_items_info[# z, i++] = "Pop Pop!";
+ds_items_info[# z, i++] = "Knock on it.";
+ds_items_info[# z, i++] = "There's nothing written in it.";
+ds_items_info[# z, i++] = "Don't kick it.";
+ds_items_info[# z, i++] = "You sit on it, but can't take it with you.";
+ds_items_info[# z, i++] = "Your mom.";
+ds_items_info[# z, i++] = "For hipsters to throw in bars.";
+ds_items_info[# z, i++] = "Oozy, like an Ooze Cat.";
+ds_items_info[# z, i++] = "They used to be called Jefferson Starfish.";
+ds_items_info[# z, i++] = "Beware of clouds shaped like this.";
+ 
  
 var yy = 0; repeat(inv_slots){
 	ds_inventory[# 0, yy] = irandom_range(1, item.height-1);
