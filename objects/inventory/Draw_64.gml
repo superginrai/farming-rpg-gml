@@ -73,6 +73,17 @@ repeat(inv_slots){
 	iy = ii div inv_slots_width;
 }
 
+//Draw item description
+var iinfo_grid = ds_items_info, description = "";
+iitem = inv_grid[# 0, selected_slot];
+
+if(iitem > 0){
+	draw_set_font(fnt_text_12);
+	description = iinfo_grid[# 0, iitem] + ". " + iinfo_grid[# 1, iitem];
+	c = c_black;
+	draw_text_ext_color(desc_x, desc_y, description, string_height("M"), inv_UI_width - (x_buffer * 2), c, c, c, c, 1);
+}
+
 if(pickup_slot != -1){
 	//Item
 	iitem = inv_grid[# 0, pickup_slot];

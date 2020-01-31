@@ -37,6 +37,9 @@ info_y = inv_UI_y + (9 * scale);
 slots_x = info_x;
 slots_y = inv_UI_y + (40 * scale);
 
+desc_x = info_x;
+desc_y = inv_UI_y + (156 * scale);
+
 //Player Info
 //0 = GOLD
 //1 = SILVER
