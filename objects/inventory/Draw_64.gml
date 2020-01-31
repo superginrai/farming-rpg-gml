@@ -81,7 +81,7 @@ if(iitem > 0){
 	draw_set_font(fnt_text_12);
 	description = iinfo_grid[# 0, iitem] + ". " + iinfo_grid[# 1, iitem];
 	c = c_black;
-	draw_text_ext_color(desc_x, desc_y, description, string_height("M"), inv_UI_width - (x_buffer * 2), c, c, c, c, 1);
+	draw_text_ext_color(desc_x, desc_y, description, string_height("M"), (inv_UI_width * scale) - (x_buffer * 2), c, c, c, c, 1);
 }
 
 if(pickup_slot != -1){
