@@ -53,6 +53,8 @@ if (drop_move){
 			
 			//Destroy item if picked up
 			if(picked_up){
+				
+				
 				instance_destroy();
 				show_debug_message("Picked up an item"); 
 			}
