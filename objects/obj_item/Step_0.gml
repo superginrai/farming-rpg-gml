@@ -53,6 +53,39 @@ if (drop_move){
 			
 			//Destroy item if picked up
 			if(picked_up){
+				if(!instance_exists(obj_notification)){ instance_create_layer(0,0, "Instances", obj_notification); }
+				var in = item_num;	
+				with(obj_notification){
+					if(!ds_exists(ds_notifications, ds_type_grid)){//Create grid
+						ds_notifications = ds_grid_create(2,1);
+						var not_grid = ds_notifications;
+						not_grid[# 0, 0] = 1;
+						not_grid[# 1, 0] = inventory.ds_items_info[# 0, in];
+					} else {//Add to grid
+						event_perform(ev_other, ev_user0); 
+						
+						var not_grid = ds_notifications;
+						var grid_height = ds_grid_height(not_grid);
+						var name = inventory.ds_items_info[# 0, in];
+						var in_grid = false;
+						
+						var yy = 0; repeat(grid_height){
+							if(name == not_grid[# 1, yy]){//Are we in Grid already?
+								not_grid[# 0, yy] += 1;
+								in_grid = true;
+								break;
+							}	
+							
+							yy ++;
+						}
+						
+						if(!in_grid){
+							ds_grid_resize(not_grid, 2, grid_height+1);
+							not_grid[# 0, grid_height] = 1;
+							not_grid[# 1, grid_height] = inventory.ds_items_info[# 0, in];	
+						}
+					
+				}
 				
 				
 				instance_destroy();
@@ -62,3 +95,4 @@ if (drop_move){
 		} 
 	}
 
+}

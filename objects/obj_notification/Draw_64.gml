@@ -2,7 +2,7 @@
 var not_grid = ds_notifications;
 var grid_height = ds_grid_height(not_grid);
 var c = c_white;
- 
+draw_set_font(font);
 var yy = 0; repeat(grid_height){
 	var not_sign = ""; 
 	if(not_grid[# 0, yy] > 0){ not_sign = "+"; }
