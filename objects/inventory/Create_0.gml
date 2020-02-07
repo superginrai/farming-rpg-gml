@@ -1,5 +1,5 @@
  depth = -1;
-scale = 2;
+scale = 1;
 show_inventory = false;
 
 inv_slots = 17;

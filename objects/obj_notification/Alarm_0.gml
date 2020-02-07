@@ -1,1 +1,1 @@
- fade_away = 0;
+ fade_away = true;
