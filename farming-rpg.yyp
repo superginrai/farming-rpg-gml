@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "2b3ecb2b-32e5-446f-8e8a-0f2cdc98d6b2",
+            "Value": {
+                "id": "f27bfc34-3921-430e-82c3-b0021e42c8f7",
+                "resourcePath": "sprites\/spr_textbox\/spr_textbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2c966568-52c4-465a-a978-aed56b8bc583",
             "Value": {
                 "id": "9aa0469f-a346-44fb-9f02-566aad74624a",
@@ -511,6 +519,14 @@
             }
         },
         {
+            "Key": "8c036e5e-3ba2-449e-8c35-da13b3fe80ab",
+            "Value": {
+                "id": "623adeaf-198a-4619-a8a0-2dbd853c76b1",
+                "resourcePath": "sprites\/spr_portraits\/spr_portraits.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9357c3a6-9067-4c13-b9ff-d41d12c31d86",
             "Value": {
                 "id": "38edc39c-cc77-48c4-b4a7-18452c525af9",
@@ -571,6 +587,22 @@
             "Value": {
                 "id": "baaadcdb-38d4-4748-8899-e36b4d2ea380",
                 "resourcePath": "sprites\/spr_base_male_5\/spr_base_male_5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a03028cd-db7f-4e87-9538-56e3f213faca",
+            "Value": {
+                "id": "c1fa64af-519b-4408-bc0c-0e7b2de652f7",
+                "resourcePath": "views\/a03028cd-db7f-4e87-9538-56e3f213faca.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a256a8f7-1616-4171-a114-3d8c872a3266",
+            "Value": {
+                "id": "4d0abc69-ec43-4c8f-b7c5-4b8134d78950",
+                "resourcePath": "sprites\/spr_namebox\/spr_namebox.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -676,6 +708,14 @@
                 "id": "4378966f-f292-47a1-840c-8d49b9d5b4f4",
                 "resourcePath": "views\/ca512065-13ea-492c-b49d-293d05379fd6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cb934a0c-91d1-4ad5-8825-8fba3b5c85e3",
+            "Value": {
+                "id": "713dc03e-c175-49ed-b1e9-9aa2b0380110",
+                "resourcePath": "sprites\/spr_portrait_frame\/spr_portrait_frame.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
