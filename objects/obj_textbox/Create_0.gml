@@ -23,12 +23,20 @@ text_x = box_x + x_buffer;
 text_y = box_y + y_buffer;
 name_text_x = namebox_x + (namebox_width/2);
 name_text_y = namebox_y + (namebox_height/2);
+text_max_width = box_width - (2*x_buffer);
 
 portrait_index = 0;
 
-text = "I could really go for some tacos, how about you?  Yeah, I really do like tacos, or anything even vaguely resembling them.";
+text[0] = "I could really go for some tacos, how about you?  Yeah, I really do like tacos, or anything even vaguely resembling them.";
+text[1] = "Oh wow now we're on a second page and still talking about tacos!"
+page = 0;
 name = "Josie";
+
+interact_key = ord("E");
 
 text_col = c_black;
 name_text_col = c_black;
 font = fnt_text_12;
+
+draw_set_font(font);
+text_height = string_height("M");
