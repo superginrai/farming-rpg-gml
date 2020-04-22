@@ -27,6 +27,7 @@ text_max_width = box_width - (2*x_buffer);
 
 portrait_index = 0;
 counter = 0;
+pause = false;
 
 text[0] = "I could really go for some tacos, how about you?  Yeah, I really do like tacos, or anything even vaguely resembling them.";
 text[1] = "Oh wow now we're on a second page and still talking about tacos!"
@@ -42,3 +43,5 @@ font = fnt_text_12;
 
 draw_set_font(font);
 text_height = string_height("M");
+
+event_perform(ev_other, ev_user1);
