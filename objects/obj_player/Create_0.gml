@@ -19,3 +19,11 @@ spr_hair = spr_hair_female_pixie_white_blond_2;
 spr_feet = spr_feet_female_boots_black;
 
 facing = 0;
+
+portrait_index = 7;
+voice = snd_voice1;
+name = "Player"; 
+
+radius = 16;
+
+active_textbox = noone; 

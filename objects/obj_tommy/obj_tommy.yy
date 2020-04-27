@@ -2,7 +2,7 @@
     "id": "fda95589-58cb-4f95-bcd2-d0020a4a1725",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_will",
+    "name": "obj_tommy",
     "eventList": [
         {
             "id": "7d9a2953-1ebf-43e1-85c8-6dd4013065c6",

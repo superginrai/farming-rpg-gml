@@ -29,10 +29,9 @@ portrait_index = 0;
 counter = 0;
 pause = false;
 
-text[0] = "I could really go for some tacos, how about you?  Yeah, I really do like tacos, or anything even vaguely resembling them.";
-text[1] = "Oh wow now we're on a second page and still talking about tacos!"
+text[0] = ""; 
 page = 0;
-name = "Josie";
+name = "";
 voice = snd_voice1;
 
 interact_key = ord("E");
@@ -43,5 +42,3 @@ font = fnt_text_12;
 
 draw_set_font(font);
 text_height = string_height("M");
-
-event_perform(ev_other, ev_user1);

@@ -1,4 +1,4 @@
-event_inherited(); 
+ event_inherited(); 
 
 walkSpeed = 1;
 normalSpeed = 2;
@@ -22,5 +22,8 @@ spr_shadow = spr_character_shadow;
 
 moveX = 0;
 moveY = 0;
+can_move = true;
 
 alarm[1] = 1;
+
+ 

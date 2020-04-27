@@ -4,6 +4,7 @@ inputUp = keyboard_check(vk_up);
 inputDown = keyboard_check(vk_down);
 inputWalk = keyboard_check(vk_control);
 inputRun = keyboard_check(vk_shift);
+inputInteract = keyboard_check_pressed(ord ("E"));
 
 // Alter speed
 if (inputWalk) { playerSpeed = walkSpeed };
@@ -77,6 +78,29 @@ if(inst != noone and facing == inst.playerFacingBefore ){
 		}
 	}
 }
+
+//Textbox
+if(inputInteract){
+	
+	if (active_textbox == noone){
+
+		var inst = collision_rectangle(x-radius, y-radius, x+radius, y+radius, obj_parent_npc, false, false);
+
+		if(inst != noone){
+			with(inst){
+				var tbox = create_textbox(text, speakers);
+				can_move = false;
+				moveX = 0; moveY = 0;
+			}
+			active_textbox = tbox;
+		}
+	}	else {
+		if(!instance_exists(active_textbox)){
+			active_textbox = noone;	
+		}
+	}
+}
+
 
 // Apply movement 
 x += moveX

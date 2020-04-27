@@ -1,3 +1,5 @@
+if(!can_move) exit;
+
 // Collision checks
 // Horizontal
 if (moveX != 0) {
