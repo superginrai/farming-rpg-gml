@@ -9,5 +9,14 @@ spr_feet = spr_feet_male_boots_black;
 portrait_index = 7;
 voice = snd_voice1;
 name = "Tommy";
-text = ["Oh hai Mark.", "I'm not Mark.", "WHY WOULD YOU BETRAY ME!?!?!?!???!?!?!?!?!?!", "Catch you later Tommy."];
+text = [
+		"Oh hai Mark.",
+		[
+		"I'm not Mark.",
+		"Oh hai Tommy.",
+		"Love your movie!"
+		],
+		"WHY WOULD YOU BETRAY ME!?!?!?!???!?!?!?!?!?!",
+		"Catch you later Tommy."
+];
 speakers = [id, obj_player, id, obj_player];
